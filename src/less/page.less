@@ -1,0 +1,29 @@
+//引入基本格式
+@import './min/_mixin.less';
+#app,.container
+html,body{
+    width:100%;
+    height:100%;
+    //全局背景
+    // background:greenyellow;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    display:flex;
+    position: relative;
+    // background:#000;
+    flex-direction: column;
+    .content{
+        flex:1;
+        overflow-y: auto;
+    }
+    .am-tab-bar{
+        .h(110);
+        position:fixed;
+        .bottom(-8);
+        left: 0;
+        right: 0;
+    }
+}

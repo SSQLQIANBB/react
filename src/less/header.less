@@ -1,0 +1,38 @@
+@import './min/_mixin.less';
+.header{
+    box-sizing: border-box;
+    .w(750);
+    .h(88);
+    .fs(30);
+    background:#000;
+    display: flex;
+    color: aliceblue;
+    .lh(88);
+    .h_Left{
+        .w(250);
+        .pl(35);
+    }
+    .h_Middle{
+        .w(250);
+        img{
+            .w(136);
+            .h(56);
+            vertical-align: middle;
+        }
+        span{
+            .fs(12);
+            .ml(10);
+            vertical-align: middle;
+        }
+    }
+    .h_Right{
+        .w(230);
+        .span1{
+            .ml(55);
+        }
+        .span2{
+            .ml(35);
+            .fs(15);
+        }
+    }
+}

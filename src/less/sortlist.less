@@ -1,0 +1,61 @@
+@import './min/_mixin.less';
+
+.sortlist{
+    .w(750);
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    // box-sizing: border-box;
+    .sl_terms{
+        .w(750);
+        .h(72);
+        text-align: center;
+        .lh(72);
+        border-bottom: 1px solid #ccc;
+    }
+    .sl_content{
+        .w(750);
+        .h(291);
+        .padding(30,30,30,30);
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        .Left_sl{
+            .w(325);
+            .h(230);
+            img{
+                .w(325);
+                .h(230);
+            }
+        }
+        .Right_sl{
+            .w(340);
+            .h(230);
+            .pl(20);
+            p{
+                .w(320);
+                .h(150);
+                .fs(30);
+                color:#2c3038;
+                font-family: PingFangSC-Medium;
+                text-overflow: ellipsis;
+            }
+            span{
+                color:red;
+                .fs(30);
+                font-family: PingFangSC-Medium;
+            }
+            del{
+                .ml(20);
+                color: #92969c;
+                font-family: PingFangSC-Medium;
+                .fs(30);
+            }
+        }
+    }
+    .bottom{
+        .w(750);
+        .h(110);
+    }
+}

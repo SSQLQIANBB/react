@@ -1,0 +1,202 @@
+@import './min/_mixin.less';
+
+.compass{
+    width:100%;
+    *{
+        margin:0;
+        padding:0;
+    }
+    overflow-x: hidden;
+    box-sizing: border-box;
+    .caption{
+        .w(750);
+        .h(170);
+        // margin:0 auto;
+        // .pt(60);
+        .cap_title{
+            .pt(60);
+            margin:0 auto;
+            .w(670);
+            .h(46);
+            .fs(42);
+            font-weight: 700;
+        }
+        .cap_sub{
+            margin:0 auto;
+            .w(670);
+            .h(35);
+            .lh(35);
+            .fs(24);
+            color:#92969c;
+        }
+    }
+    
+    .cp_swiper{
+        .slider-frame{
+            border-bottom: 1px solid #ccc;
+        }
+        .w(750);
+        // background:#fff;
+        .h(586);
+        .space-carousel{
+            .w(750);
+            // background:#fff;
+            .h(586);
+            // border-bottom: 1px solid #ccc;
+            a{
+                .w(690);
+                .h(586);
+                font-family: PingFangSC-Regular;
+                img{
+                    .w(690);
+                    .h(378);
+                    .pl(0);
+                    margin-bottom: 10px;
+                }
+                .p1{
+                    .w(600);
+                    .fs(22);
+                    color:#ff3939;
+                }
+                .p2{
+                    .w(600);
+                    // .h(50);
+                    .lh(52);
+                    .fs(35);
+                    font-weight: 700;
+                }
+                .p3{
+                    .w(600);
+                    .lh(25);
+                    .fs(20);
+                    color:#92969c;
+                }
+            }
+        }
+    }
+    .cp_swiper1{
+        .w(750);
+        .h(263);
+        // background:#ff3939;
+        overflow: scroll;
+        .swiper_contain1{
+            .w(1075);
+            .h(222);
+            .pt(40);
+            .pl(40);
+            .con_box{
+                .w(325);
+                .h(182);
+                display: inline-block;
+                background:#ccc;
+                .ml(20);
+                vertical-align: middle;
+                position: relative;
+                img{
+                    .w(325);
+                    .h(182)
+                }
+                .img_shad{
+                    position: absolute;
+                    .w(325);
+                    .h(60);
+                    .top(50);
+                    .p1{
+                        .fs(32);
+                        .lh(50);
+                        font-weight: 700;
+                        color:#fff;
+                    }
+                    .p2{
+                        .fs(22);
+                        color:#fff;
+                    }
+                }
+            }
+        }
+    }
+    .cp_swiper2{
+        box-sizing: border-box;
+        .w(750);
+        // background:#fff;
+        .h(562);
+        .space-carousel{
+            .w(750);
+            // background:#fff;
+            .h(562);
+            
+            a{
+                border-top: 1px solid #ccc;
+                .pt(40);
+                .w(690);
+                .h(502);
+                font-family: PingFangSC-Regular;
+                img{
+                    .w(690);
+                    .h(378);
+                    .pl(0);
+                    margin-bottom: 10px;
+                }
+                .p2{
+                    .w(600);
+                    // .h(50);
+                    .lh(60);
+                    .fs(35);
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    .com_goods{
+        .w(750);
+        .h(431);
+        .g_container{
+            margin:0 auto;
+            .pt(60);
+            border-top:1px solid #ccc;
+            .w(670);
+            .h(431);
+            .g_title{
+                .w(670);
+                position: relative;
+                h3{
+                    .w(670);
+                    .h(42);
+                    .fs(42);
+                }
+                p{
+                    .w(670);
+                    .h(40);
+                    .lh(40);
+                    .fs(20);
+                    color:#92969c;
+                }
+                a{
+                    .w(130);
+                    .h(28);
+                    .lh(28);
+                    color:red;
+                    .fs(22);
+                    position: absolute;
+                    .left(530);
+                    .top(20);
+                }
+            }
+            .g_picture{
+                .w(670);
+                .pt(20);
+                .h(256);
+                img{
+                    .w(210);
+                    .h(210);
+                    .ml(10)
+                }
+            }
+        }
+        
+    }
+    .bottom{
+        .w(750);
+        .h(110);
+    }
+}
